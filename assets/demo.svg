@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 300" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+  <rect width="820" height="300" rx="12" fill="#0d1117"/>
+  <rect width="820" height="40" rx="12" fill="#161b22"/>
+  <rect y="28" width="820" height="12" fill="#161b22"/>
+  <circle cx="26" cy="20" r="6" fill="#ff5f56"/>
+  <circle cx="48" cy="20" r="6" fill="#ffbd2e"/>
+  <circle cx="70" cy="20" r="6" fill="#27c93f"/>
+  <text x="410" y="25" fill="#8b949e" font-size="13" text-anchor="middle">sqlite-rag — Ollama embeddings + cosine in SQLite (no vector DB)</text>
+  <g font-size="15">
+    <text x="28" y="82"><tspan fill="#3fb950">$ </tspan><tspan fill="#e6edf3">python example.py</tspan></text>
+    <text x="28" y="118"><tspan fill="#8b949e">Query: </tspan><tspan fill="#e6edf3">How far from Earth does the telescope orbit, and where?</tspan></text>
+    <text x="28" y="150"><tspan fill="#d29922">  [0.807] </tspan><tspan fill="#8b949e">jwst: The James Webb Space Telescope launched on 25 Dec 2021 ...</tspan></text>
+    <text x="28" y="206" fill="#6e7681">Generated answer:</text>
+    <text x="28" y="236" fill="#e6edf3">  The telescope orbits the Sun at the second Lagrange point (L2),</text>
+    <text x="28" y="262" fill="#e6edf3">  about 1.5 million kilometres from Earth.</text>
+  </g>
+</svg>

@@ -2,6 +2,8 @@
 
 **Minimal RAG: Ollama embeddings + cosine similarity in SQLite. No vector database. ~150 lines, standard library only.**
 
+![sqlite-rag demo](assets/demo.svg)
+
 Most RAG stacks pull in a vector database (Chroma, Pinecone, Qdrant, FAISS), a
 web framework, and a dozen dependencies. For small-to-medium corpora you don't
 need any of that. This is the whole thing: embeddings come from a local
